@@ -1,7 +1,8 @@
 "use client";
-
-import { useBalance } from "@repo/stores/balance";
+import { signIn, signOut, useSession } from "next-auth/react";
+import { Appbar } from "@repo/ui/appbar";
 
 export default function Page(): JSX.Element {
-  return <div className="text-xl">Hello from Tailwind</div>;
+  const session = useSession();
+  return <div></div>;
 }
