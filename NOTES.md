@@ -1,7 +1,11 @@
+![alt text](image.png)
+
 ## On Ramping
 
 - This for small business we do using third party apps, talking to bank and taking care of transactions.
--
+- addition vs increment approach, addition bad one as when two simultaneous request will come it will cause problem
+  ![alt text](image-1.png)
+  ![alt text](image-2.png)
 
 ## Steps
 
